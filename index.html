@@ -1,0 +1,1385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calm Preparation Kits for Kids | Next Comes Calm</title>
+  <meta name="description" content="Printable calm preparation kits for children ages 2-8. Visual stories, parent scripts, and brave choices cards — PDF download, instant access. Read together at home, print in minutes. Helps with eye exams, dentist, vaccines, and more.">
+
+  <!-- Canonical (update with live domain) -->
+  <!-- <link rel="canonical" href="https://nextcomescalm.com/"> -->
+
+  <!-- Open Graph / Pinterest -->
+  <meta property="og:title" content="Next Comes Calm — Printable Calm Kits for Kids">
+  <meta property="og:description" content="Help your child feel ready for new experiences. Warm, practical printable kits for parents of children ages 2-8.">
+  <meta property="og:image" content="assets/og-image.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nextcomescalm.com/">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cream:          '#FDFBF5',
+            'cream-dark':   '#F5F0E8',
+            coffee:         '#3F322C',
+            'coffee-light': '#6B5249',
+            'coffee-muted': '#9C8880',
+            teal:           '#94D1BE',
+            'teal-dark':    '#6BADA0',
+            sage:           '#B4C6A6',
+            'sage-light':   '#D4E3CC',
+            blush:          '#E8D3C9',
+            gold:           '#E6C870',
+            blue:           '#A7C7E7',
+          },
+          fontFamily: {
+            heading: ['"Baloo 2"', 'sans-serif'],
+            body:    ['Quicksand', 'sans-serif'],
+          },
+          boxShadow: {
+            'soft-sm': '0 2px 8px rgba(63,50,44,0.08)',
+            'soft-md': '0 4px 16px rgba(63,50,44,0.12)',
+            'soft-lg': '0 8px 32px rgba(63,50,44,0.14)',
+          },
+          animation: {
+            'marquee': 'marquee 45s linear infinite',
+          },
+          keyframes: {
+            marquee: {
+              '0%':   { transform: 'translateX(0)' },
+              '100%': { transform: 'translateX(-50%)' },
+            },
+          },
+        }
+      }
+    }
+  </script>
+
+  <!-- Reduced motion + base styles -->
+  <style>
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+      }
+    }
+    html { scroll-behavior: smooth; }
+    body { background-color: #FDFBF5; }
+
+    /* Accent band for kit cards */
+    .kit-band { height: 10px; border-radius: 16px 16px 0 0; }
+
+    /* Hero full-height + clip */
+    .hero-section { min-height: 90svh; display: flex; align-items: center; }
+
+    /* Wave dividers */
+    .wave-divider { display: block; width: 100%; overflow: hidden; line-height: 0; }
+    .wave-divider svg { display: block; width: 100%; }
+
+    /* Marquee pause on hover/reduced-motion */
+    .marquee-track:hover { animation-play-state: paused; }
+    @media (prefers-reduced-motion: reduce) {
+      .marquee-track { animation: none !important; }
+    }
+
+    /* Kit card hover lift */
+    .kit-card { transition: transform 200ms ease, box-shadow 200ms ease; }
+    .kit-card:hover { transform: translateY(-3px); }
+
+    /* MailerLite form reset */
+    #ml-subscribe-form { background: transparent !important; }
+
+    /* Focus ring */
+    :focus-visible {
+      outline: 2px solid #94D1BE;
+      outline-offset: 3px;
+    }
+  </style>
+
+  <!-- JSON-LD: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Next Comes Calm",
+    "url": "https://nextcomescalm.com",
+    "description": "Printable calm preparation kits for children ages 2-8 facing new experiences.",
+    "slogan": "Peace of mind, one calm moment at a time.",
+    "sameAs": [
+      "https://nextcomescalm.etsy.com",
+      "https://pinterest.com/nextcomescalm"
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD: Product (Eye Exam — live kit) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Eye Exam Visual Story Printable + Parent Scripts PDF",
+    "description": "19-page printable calm preparation kit for children ages 2-8 facing an eye exam. Includes visual story, parent scripts, brave choices cards, step schedule cards, and comfort plan. PDF download, instant access.",
+    "brand": { "@type": "Brand", "name": "Next Comes Calm" },
+    "offers": {
+      "@type": "Offer",
+      "price": "4.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "url": "https://nextcomescalm.etsy.com"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does a kit cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Each kit is $4.99. You get a 19-page PDF download with instant access — no subscription, no recurring fees."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I print a kit more than once?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Once you download the PDF, you can print it as many times as you need for your family's personal use."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What age is this for?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The kits are designed for children ages 2–8. The visual story uses simple words and pictures so even pre-readers can follow along."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need to read it with my child?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes — reading together is half the work. The kit is designed for your kitchen table, 1–3 nights before the appointment. Your calm presence while reading is what makes it work."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What file format is it?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Each kit is a PDF download. Print on standard US Letter paper — no special paper or supplies needed."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What if my child doesn't seem interested or ready?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "That's normal. Try reading just the visual story first — no pressure to cover the whole kit in one sitting. Some children warm up on the second or third read. The kit includes a 'When Plans Change' page specifically for days when things don't go as hoped."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="font-body text-coffee antialiased">
+
+  <!-- ============================================================
+       SKIP LINK (accessibility)
+  ============================================================ -->
+  <a href="#main-content"
+     class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50
+            bg-teal text-coffee font-body font-semibold px-4 py-2 rounded-xl">
+    Skip to main content
+  </a>
+
+  <!-- ============================================================
+       HEADER / NAV
+  ============================================================ -->
+  <header class="sticky top-0 z-40 bg-cream/95 backdrop-blur-sm border-b border-cream-dark">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+      <a href="/" class="font-heading font-bold text-xl text-coffee" aria-label="Next Comes Calm home">
+        Next Comes Calm
+      </a>
+      <nav aria-label="Main navigation">
+        <ul class="flex items-center gap-1 sm:gap-2">
+          <li>
+            <a href="#why-it-works"
+               class="font-body font-medium text-sm text-coffee-light hover:text-coffee
+                      px-3 py-2 rounded-lg transition-colors duration-200 hidden sm:inline-block">
+              Why it works
+            </a>
+          </li>
+          <li>
+            <a href="#catalog"
+               class="font-body font-medium text-sm text-coffee-light hover:text-coffee
+                      px-3 py-2 rounded-lg transition-colors duration-200 hidden sm:inline-block">
+              Kits
+            </a>
+          </li>
+          <li>
+            <a href="blog/"
+               class="font-body font-medium text-sm text-coffee-light hover:text-coffee
+                      px-3 py-2 rounded-lg transition-colors duration-200 hidden sm:inline-block">
+              Blog
+            </a>
+          </li>
+          <li>
+            <a href="https://nextcomescalm.etsy.com"
+               target="_blank" rel="noopener noreferrer"
+               class="font-body font-semibold text-sm text-coffee bg-teal hover:bg-teal-dark
+                      px-4 py-2 rounded-xl transition-colors duration-200 cursor-pointer">
+              Shop on Etsy
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ============================================================
+         SECTION 1: HERO
+    ============================================================ -->
+    <section class="bg-cream relative overflow-hidden hero-section" aria-label="Hero">
+      <!-- Decorative blobs -->
+      <div class="absolute top-0 right-0 w-96 h-96 opacity-20 pointer-events-none" aria-hidden="true">
+        <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#B4C6A6" d="M320,80 C370,120 390,200 360,270 C330,340 240,380 160,360 C80,340 30,260 40,180 C50,100 120,40 210,30 C280,22 270,40 320,80Z"/>
+        </svg>
+      </div>
+      <div class="absolute bottom-0 left-0 w-64 h-64 opacity-10 pointer-events-none" aria-hidden="true">
+        <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#94D1BE" d="M240,60 C280,100 290,180 260,240 C230,300 150,320 80,290 C10,260 -10,170 20,100 C50,30 130,10 190,20 C220,26 210,30 240,60Z"/>
+        </svg>
+      </div>
+
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 w-full">
+        <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+
+          <!-- Text column -->
+          <div class="order-1">
+            <!-- Eyebrow -->
+            <p class="font-body font-semibold text-sm text-teal-dark uppercase tracking-wide mb-4">
+              For children ages 2–8
+            </p>
+
+            <!-- H1 -->
+            <h1 class="font-heading font-bold text-4xl sm:text-5xl lg:text-5xl text-coffee leading-tight mb-6">
+              Help your child feel ready — before you even leave the house.
+            </h1>
+
+            <!-- Subheadline -->
+            <p class="font-body text-lg text-coffee-light leading-relaxed mb-8 max-w-lg">
+              Printable calm preparation kits for children ages 2–8. Visual stories, parent scripts, and brave choices cards — read together at home, print in minutes. Nothing to prep, nothing to explain from scratch.
+            </p>
+
+            <!-- CTAs -->
+            <div class="flex flex-col sm:flex-row gap-3 mb-8">
+              <a href="#catalog"
+                 class="inline-flex items-center justify-center font-body font-semibold text-base
+                        bg-coffee text-cream hover:bg-coffee-light px-7 py-3.5 rounded-xl
+                        transition-colors duration-200 cursor-pointer min-h-[48px]">
+                See the kits
+              </a>
+              <a href="#email-capture"
+                 class="inline-flex items-center justify-center font-body font-semibold text-base
+                        bg-teal text-coffee hover:bg-teal-dark px-7 py-3.5 rounded-xl
+                        transition-colors duration-200 cursor-pointer min-h-[48px]">
+                Get a free sample
+              </a>
+            </div>
+
+            <!-- Social proof row -->
+            <div class="flex items-center gap-3">
+              <div class="flex items-center gap-0.5" aria-label="5 star rating">
+                <svg class="w-5 h-5 text-gold fill-current" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-5 h-5 text-gold fill-current" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-5 h-5 text-gold fill-current" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-5 h-5 text-gold fill-current" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-5 h-5 text-gold fill-current" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              </div>
+              <p class="font-body text-sm text-coffee-light">Parents love these kits</p>
+            </div>
+          </div>
+
+          <!-- Illustration column -->
+          <div class="order-2 flex justify-center lg:justify-end">
+            <div class="relative w-full max-w-sm lg:max-w-md">
+              <div class="bg-sage-light rounded-3xl aspect-square flex flex-col items-center justify-center p-8 shadow-soft-md">
+                <img src="assets/breeze-hero.jpg"
+                     alt="Breeze, the Next Comes Calm mascot — a calm, sage green character with flowing hair, sitting peacefully"
+                     class="w-full h-full object-contain"
+                     onerror="this.parentElement.classList.add('breeze-fallback'); this.style.display='none';"
+                     width="400" height="400">
+                <!-- Fallback content (visible only if image missing) -->
+                <div class="breeze-fallback-content text-center" style="display:none">
+                  <div class="w-24 h-24 rounded-full bg-sage mx-auto mb-4 flex items-center justify-center">
+                    <svg class="w-12 h-12 text-coffee" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+                    </svg>
+                  </div>
+                  <p class="font-heading font-semibold text-coffee text-lg">Meet Breeze</p>
+                  <p class="font-body text-coffee-light text-sm mt-1">Your child's calm companion</p>
+                </div>
+              </div>
+              <!-- Floating badge -->
+              <div class="absolute -bottom-4 -left-4 bg-cream rounded-2xl shadow-soft-md px-4 py-3">
+                <p class="font-body font-semibold text-sm text-coffee">19 pages · Print at home</p>
+                <p class="font-body text-xs text-coffee-muted">US Letter · Instant download</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave: cream → coffee (marquee) -->
+    <div class="wave-divider bg-cream" aria-hidden="true">
+      <svg viewBox="0 0 1440 48" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style="height:48px">
+        <path d="M0,24 C240,48 480,0 720,24 C960,48 1200,0 1440,24 L1440,48 L0,48 Z" fill="#3F322C"/>
+      </svg>
+    </div>
+
+    <!-- ============================================================
+         MARQUEE STRIP — scenario catalog scroll
+    ============================================================ -->
+    <div class="bg-coffee py-3 overflow-hidden" aria-label="Available kit scenarios">
+      <div class="flex animate-marquee marquee-track whitespace-nowrap gap-0">
+        <!-- First copy -->
+        <span class="inline-flex items-center gap-5 pr-5">
+          <span class="font-body font-semibold text-sm text-cream/60">Eye Exam</span>
+          <span class="text-teal text-xs" aria-hidden="true">✦</span>
+          <span class="font-body font-semibold text-sm text-cream/60">Dentist Visit</span>
+          <span class="text-teal text-xs" aria-hidden="true">✦</span>
+          <span class="font-body font-semibold text-sm text-cream/60">Vaccines</span>
+          <span class="text-teal text-xs" aria-hidden="true">✦</span>
+          <span class="font-body font-semibold text-sm text-cream/60">Blood Test</span>
+          <span class="text-teal text-xs" aria-hidden="true">✦</span>
+          <span class="font-body font-semibold text-sm text-cream/60">Leaving the Playground</span>
+          <span class="text-teal text-xs" aria-hidden="true">✦</span>
+          <span class="font-body font-semibold text-sm text-cream/60">Morning Routine</span>
+          <span class="text-teal text-xs" aria-hidden="true">✦</span>
+          <span class="font-body font-semibold text-sm text-cream/60">First Day of School</span>
+          <span class="text-teal text-xs" aria-hidden="true">✦</span>
+          <span class="font-body font-semibold text-sm text-cream/60">Restaurant</span>
+          <span class="text-teal text-xs" aria-hidden="true">✦</span>
+          <span class="font-body font-semibold text-sm text-cream/60">Birthday</span>
+          <span class="text-teal text-xs" aria-hidden="true">✦</span>
+          <span class="font-body font-semibold text-sm text-cream/60">Haircut</span>
+          <span class="text-teal text-xs" aria-hidden="true">✦</span>
+          <span class="font-body font-semibold text-sm text-cream/60">Grocery Shop</span>
+          <span class="text-teal text-xs" aria-hidden="true">✦</span>
+          <span class="font-body font-semibold text-sm text-cream/60">Airplane</span>
+          <span class="text-teal text-xs" aria-hidden="true">✦</span>
+          <span class="font-body font-semibold text-sm text-cream/60">Picture Day</span>
+          <span class="text-teal text-xs" aria-hidden="true">✦</span>
+        </span>
+        <!-- Second copy (seamless loop) -->
+        <span class="inline-flex items-center gap-5 pr-5" aria-hidden="true">
+          <span class="font-body font-semibold text-sm text-cream/60">Eye Exam</span>
+          <span class="text-teal text-xs">✦</span>
+          <span class="font-body font-semibold text-sm text-cream/60">Dentist Visit</span>
+          <span class="text-teal text-xs">✦</span>
+          <span class="font-body font-semibold text-sm text-cream/60">Vaccines</span>
+          <span class="text-teal text-xs">✦</span>
+          <span class="font-body font-semibold text-sm text-cream/60">Blood Test</span>
+          <span class="text-teal text-xs">✦</span>
+          <span class="font-body font-semibold text-sm text-cream/60">Leaving the Playground</span>
+          <span class="text-teal text-xs">✦</span>
+          <span class="font-body font-semibold text-sm text-cream/60">Morning Routine</span>
+          <span class="text-teal text-xs">✦</span>
+          <span class="font-body font-semibold text-sm text-cream/60">First Day of School</span>
+          <span class="text-teal text-xs">✦</span>
+          <span class="font-body font-semibold text-sm text-cream/60">Restaurant</span>
+          <span class="text-teal text-xs">✦</span>
+          <span class="font-body font-semibold text-sm text-cream/60">Birthday</span>
+          <span class="text-teal text-xs">✦</span>
+          <span class="font-body font-semibold text-sm text-cream/60">Haircut</span>
+          <span class="text-teal text-xs">✦</span>
+          <span class="font-body font-semibold text-sm text-cream/60">Grocery Shop</span>
+          <span class="text-teal text-xs">✦</span>
+          <span class="font-body font-semibold text-sm text-cream/60">Airplane</span>
+          <span class="text-teal text-xs">✦</span>
+          <span class="font-body font-semibold text-sm text-cream/60">Picture Day</span>
+          <span class="text-teal text-xs">✦</span>
+        </span>
+      </div>
+    </div>
+
+    <!-- Wave: coffee → blush -->
+    <div class="wave-divider bg-coffee" aria-hidden="true">
+      <svg viewBox="0 0 1440 48" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style="height:48px">
+        <path d="M0,24 C360,0 1080,48 1440,24 L1440,48 L0,48 Z" fill="#E8D3C9"/>
+      </svg>
+    </div>
+
+    <!-- ============================================================
+         SECTION 2: WHY IT WORKS (Trust / Methodology)
+    ============================================================ -->
+    <section id="why-it-works" class="bg-blush py-16 lg:py-24" aria-label="Why calm prep kits work">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- Section heading -->
+        <div class="text-center mb-12">
+          <h2 class="font-heading font-bold text-3xl sm:text-4xl text-coffee mb-4">
+            Why reading it together the night before actually helps
+          </h2>
+          <p class="font-body text-base text-coffee-light max-w-2xl mx-auto leading-relaxed">
+            Each kit is built around three ideas that make a real difference — no clinical jargon, just things that work at your kitchen table.
+          </p>
+        </div>
+
+        <!-- Three benefit cards -->
+        <div class="grid sm:grid-cols-3 gap-6">
+
+          <!-- Card 1: Familiarity -->
+          <div class="bg-cream rounded-2xl shadow-soft-sm p-7 hover:shadow-soft-md transition-shadow duration-200">
+            <!-- Icon -->
+            <div class="w-12 h-12 rounded-xl bg-blue/30 flex items-center justify-center mb-5" aria-hidden="true">
+              <svg class="w-6 h-6 text-coffee" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+              </svg>
+            </div>
+            <h3 class="font-heading font-semibold text-xl text-coffee mb-3">Nothing is a surprise</h3>
+            <p class="font-body text-sm text-coffee-light leading-relaxed">
+              When children have seen the steps before, the experience feels familiar instead of unknown. Familiarity is the fastest path to calm.
+            </p>
+          </div>
+
+          <!-- Card 2: Agency -->
+          <div class="bg-cream rounded-2xl shadow-soft-sm p-7 hover:shadow-soft-md transition-shadow duration-200">
+            <div class="w-12 h-12 rounded-xl bg-sage/40 flex items-center justify-center mb-5" aria-hidden="true">
+              <svg class="w-6 h-6 text-coffee" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/>
+              </svg>
+            </div>
+            <h3 class="font-heading font-semibold text-xl text-coffee mb-3">They get to make choices</h3>
+            <p class="font-body text-sm text-coffee-light leading-relaxed">
+              Every kit includes "you choose" moments — a comfort item to bring, a breathing option to try. Small choices build big confidence.
+            </p>
+          </div>
+
+          <!-- Card 3: Connection -->
+          <div class="bg-cream rounded-2xl shadow-soft-sm p-7 hover:shadow-soft-md transition-shadow duration-200">
+            <div class="w-12 h-12 rounded-xl bg-blush flex items-center justify-center mb-5" aria-hidden="true">
+              <svg class="w-6 h-6 text-coffee" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+              </svg>
+            </div>
+            <h3 class="font-heading font-semibold text-xl text-coffee mb-3">You read it together</h3>
+            <p class="font-body text-sm text-coffee-light leading-relaxed">
+              These kits are designed for your kitchen table, not a waiting room. Reading together is half the work — your calm helps them feel safe.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- How to use -->
+        <div class="mt-10 bg-cream rounded-2xl shadow-soft-sm p-7 lg:p-8">
+          <h3 class="font-heading font-semibold text-xl text-coffee mb-6 text-center">How it works</h3>
+          <div class="grid sm:grid-cols-3 gap-6 text-center">
+            <div>
+              <div class="w-10 h-10 rounded-full bg-teal flex items-center justify-center mx-auto mb-3" aria-hidden="true">
+                <span class="font-heading font-bold text-coffee text-sm">1</span>
+              </div>
+              <p class="font-body font-semibold text-sm text-coffee mb-1">Download &amp; print</p>
+              <p class="font-body text-sm text-coffee-light">Instant PDF. Print on US Letter paper at home.</p>
+            </div>
+            <div>
+              <div class="w-10 h-10 rounded-full bg-teal flex items-center justify-center mx-auto mb-3" aria-hidden="true">
+                <span class="font-heading font-bold text-coffee text-sm">2</span>
+              </div>
+              <p class="font-body font-semibold text-sm text-coffee mb-1">Read together</p>
+              <p class="font-body text-sm text-coffee-light">1–3 nights before. Go slowly. Let them ask questions.</p>
+            </div>
+            <div>
+              <div class="w-10 h-10 rounded-full bg-teal flex items-center justify-center mx-auto mb-3" aria-hidden="true">
+                <span class="font-heading font-bold text-coffee text-sm">3</span>
+              </div>
+              <p class="font-body font-semibold text-sm text-coffee mb-1">Go with confidence</p>
+              <p class="font-body text-sm text-coffee-light">They already know what's coming. Nothing is a surprise.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Methodology callout -->
+        <div class="mt-10 bg-cream rounded-2xl border border-sage/40 p-6 lg:p-8">
+          <p class="font-body font-semibold text-xs text-teal-dark uppercase tracking-widest mb-4 text-center">Built on 6 SEL principles</p>
+          <div class="flex flex-wrap justify-center gap-2">
+            <span class="font-body text-sm font-medium text-coffee bg-sage/20 px-4 py-1.5 rounded-full">Sequential story</span>
+            <span class="font-body text-sm font-medium text-coffee bg-blue/20 px-4 py-1.5 rounded-full">Named feelings</span>
+            <span class="font-body text-sm font-medium text-coffee bg-teal/20 px-4 py-1.5 rounded-full">"We" framing</span>
+            <span class="font-body text-sm font-medium text-coffee bg-gold/20 px-4 py-1.5 rounded-full">Child agency</span>
+            <span class="font-body text-sm font-medium text-coffee bg-blush px-4 py-1.5 rounded-full">Breathing built in</span>
+            <span class="font-body text-sm font-medium text-coffee bg-sage/20 px-4 py-1.5 rounded-full">Honest emotional arc</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Wave: blush → cream -->
+    <div class="wave-divider bg-blush" aria-hidden="true">
+      <svg viewBox="0 0 1440 48" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style="height:48px">
+        <path d="M0,0 C360,48 1080,0 1440,32 L1440,48 L0,48 Z" fill="#FDFBF5"/>
+      </svg>
+    </div>
+
+    <!-- ============================================================
+         SECTION 3: WHAT'S IN A KIT (Bento Grid)
+    ============================================================ -->
+    <section class="bg-cream py-16 lg:py-24" aria-label="What is included in each kit">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="text-center mb-12">
+          <h2 class="font-heading font-bold text-3xl sm:text-4xl text-coffee mb-4">
+            Everything a parent needs.<br class="hidden sm:block"> All in one printable download.
+          </h2>
+          <p class="font-body text-base text-coffee-light max-w-xl mx-auto">
+            Each kit is 19 pages — purpose-built so every page has one job and does it well.
+          </p>
+        </div>
+
+        <!-- Bento grid -->
+        <div class="grid grid-cols-2 lg:grid-cols-3 gap-4">
+
+          <!-- Visual Story — hero card, spans 2 cols -->
+          <div class="col-span-2 bg-blush rounded-2xl shadow-soft-sm p-6 lg:p-8">
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-cream flex items-center justify-center flex-shrink-0 mt-1" aria-hidden="true">
+                <svg class="w-5 h-5 text-coffee" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-heading font-semibold text-xl text-coffee mb-2">Visual Story</h3>
+                <p class="font-body text-sm text-coffee-light leading-relaxed">
+                  8 illustrated panels showing exactly what will happen, step by step — from leaving the house to heading home. Nothing is a surprise.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Parent Scripts -->
+          <div class="bg-cream-dark rounded-2xl shadow-soft-sm p-5">
+            <div class="w-9 h-9 rounded-lg bg-sage/40 flex items-center justify-center mb-3" aria-hidden="true">
+              <svg class="w-5 h-5 text-coffee" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"/>
+              </svg>
+            </div>
+            <h3 class="font-heading font-semibold text-base text-coffee mb-1">Parent Scripts</h3>
+            <p class="font-body text-sm text-coffee-light leading-relaxed">5 ready-to-use phrases for the hard moments.</p>
+          </div>
+
+          <!-- Step Schedule Cards -->
+          <div class="bg-cream-dark rounded-2xl shadow-soft-sm p-5">
+            <div class="w-9 h-9 rounded-lg bg-blue/30 flex items-center justify-center mb-3" aria-hidden="true">
+              <svg class="w-5 h-5 text-coffee" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
+              </svg>
+            </div>
+            <h3 class="font-heading font-semibold text-base text-coffee mb-1">Step Schedule Cards</h3>
+            <p class="font-body text-sm text-coffee-light leading-relaxed">12 illustrated cards naming each real step of the visit.</p>
+          </div>
+
+          <!-- Brave Choices -->
+          <div class="bg-cream-dark rounded-2xl shadow-soft-sm p-5">
+            <div class="w-9 h-9 rounded-lg bg-gold/30 flex items-center justify-center mb-3" aria-hidden="true">
+              <svg class="w-5 h-5 text-coffee" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+              </svg>
+            </div>
+            <h3 class="font-heading font-semibold text-base text-coffee mb-1">Brave Choices</h3>
+            <p class="font-body text-sm text-coffee-light leading-relaxed">8 coping options — breathing, grounding, and agency.</p>
+          </div>
+
+          <!-- Comfort Plan -->
+          <div class="bg-cream-dark rounded-2xl shadow-soft-sm p-5">
+            <div class="w-9 h-9 rounded-lg bg-teal/30 flex items-center justify-center mb-3" aria-hidden="true">
+              <svg class="w-5 h-5 text-coffee" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+              </svg>
+            </div>
+            <h3 class="font-heading font-semibold text-base text-coffee mb-1">Comfort Plan</h3>
+            <p class="font-body text-sm text-coffee-light leading-relaxed">What to bring, what to ask for, and what helps.</p>
+          </div>
+
+          <!-- Grown-Up Tips -->
+          <div class="bg-cream-dark rounded-2xl shadow-soft-sm p-5">
+            <div class="w-9 h-9 rounded-lg bg-blush flex items-center justify-center mb-3" aria-hidden="true">
+              <svg class="w-5 h-5 text-coffee" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+              </svg>
+            </div>
+            <h3 class="font-heading font-semibold text-base text-coffee mb-1">Grown-Up Tips</h3>
+            <p class="font-body text-sm text-coffee-light leading-relaxed">5 practical tips for before, during, and after.</p>
+          </div>
+
+          <!-- Help &amp; Break Cards -->
+          <div class="bg-cream-dark rounded-2xl shadow-soft-sm p-5">
+            <div class="w-9 h-9 rounded-lg bg-sage/40 flex items-center justify-center mb-3" aria-hidden="true">
+              <svg class="w-5 h-5 text-coffee" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"/>
+              </svg>
+            </div>
+            <h3 class="font-heading font-semibold text-base text-coffee mb-1">Help &amp; Break Cards</h3>
+            <p class="font-body text-sm text-coffee-light leading-relaxed">Cards your child can hand to you mid-visit.</p>
+          </div>
+
+          <!-- When Plans Change -->
+          <div class="bg-cream-dark rounded-2xl shadow-soft-sm p-5">
+            <div class="w-9 h-9 rounded-lg bg-gold/30 flex items-center justify-center mb-3" aria-hidden="true">
+              <svg class="w-5 h-5 text-coffee" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+              </svg>
+            </div>
+            <h3 class="font-heading font-semibold text-base text-coffee mb-1">When Plans Change</h3>
+            <p class="font-body text-sm text-coffee-light leading-relaxed">Because sometimes things don't go as planned — and that's okay.</p>
+          </div>
+
+          <!-- How Did It Go -->
+          <div class="bg-cream-dark rounded-2xl shadow-soft-sm p-5">
+            <div class="w-9 h-9 rounded-lg bg-blue/30 flex items-center justify-center mb-3" aria-hidden="true">
+              <svg class="w-5 h-5 text-coffee" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+            </div>
+            <h3 class="font-heading font-semibold text-base text-coffee mb-1">How Did It Go?</h3>
+            <p class="font-body text-sm text-coffee-light leading-relaxed">3 debrief questions to celebrate and reflect together.</p>
+          </div>
+
+        </div>
+
+        <!-- Fine print -->
+        <p class="font-body text-sm text-coffee-muted text-center mt-6">
+          19 pages total &nbsp;·&nbsp; Print on standard US Letter paper &nbsp;·&nbsp; No special supplies needed
+        </p>
+
+      </div>
+    </section>
+
+    <!-- Wave: cream → sage -->
+    <div class="wave-divider bg-cream" aria-hidden="true">
+      <svg viewBox="0 0 1440 48" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style="height:48px">
+        <path d="M0,32 C480,0 960,48 1440,16 L1440,48 L0,48 Z" fill="rgba(180,198,166,0.2)"/>
+      </svg>
+    </div>
+
+    <!-- ============================================================
+         SECTION 4: KIT CATALOG
+    ============================================================ -->
+    <section id="catalog" class="py-8 lg:py-16" style="background-color: rgba(180,198,166,0.2);" aria-label="Kit catalog">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="text-center mb-12">
+          <h2 class="font-heading font-bold text-3xl sm:text-4xl text-coffee mb-4">
+            Printable Calm Kits for Kids — Find the Right One
+          </h2>
+          <p class="font-body text-base text-coffee-light max-w-xl mx-auto">
+            Each kit is built for one specific experience — so every page, every word, and every step is exactly right for that moment.
+          </p>
+        </div>
+
+        <!-- Kit cards grid -->
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+
+          <!-- Eye Exam — LIVE -->
+          <article class="bg-cream rounded-2xl shadow-soft-sm hover:shadow-soft-md overflow-hidden kit-card">
+            <div class="kit-band" style="background-color: #A7C7E7;"></div>
+            <div class="p-6">
+              <div class="flex items-start justify-between mb-2">
+                <h3 class="font-heading font-semibold text-lg text-coffee">Eye Exam</h3>
+                <span class="font-body text-xs font-semibold bg-teal/20 text-teal-dark px-2 py-0.5 rounded-full">Available</span>
+              </div>
+              <p class="font-body text-sm text-coffee-light leading-relaxed mb-4">
+                When the room goes dark and the light moves around — this kit makes the eye doctor familiar before you even arrive.
+              </p>
+              <div class="flex items-center justify-between">
+                <span class="font-body font-semibold text-sm text-coffee">CAD $9</span>
+                <a href="https://nextcomescalm.etsy.com"
+                   target="_blank" rel="noopener noreferrer"
+                   class="font-body font-semibold text-sm text-teal-dark hover:text-coffee
+                          transition-colors duration-200 flex items-center gap-1 cursor-pointer">
+                  Get this kit
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                  </svg>
+                </a>
+              </div>
+              <div class="mt-3 pt-3 border-t border-sage/20">
+                <a href="blog/how-to-prepare-child-for-eye-exam.html"
+                   class="font-body text-xs text-coffee-muted hover:text-coffee transition-colors duration-200">
+                  Read our eye exam prep guide →
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dentist — LIVE -->
+          <article class="bg-cream rounded-2xl shadow-soft-sm hover:shadow-soft-md overflow-hidden kit-card">
+            <div class="kit-band" style="background-color: #94D1BE;"></div>
+            <div class="p-6">
+              <div class="flex items-start justify-between mb-2">
+                <h3 class="font-heading font-semibold text-lg text-coffee">Dentist</h3>
+                <span class="font-body text-xs font-semibold bg-teal/20 text-teal-dark px-2 py-0.5 rounded-full">Available</span>
+              </div>
+              <p class="font-body text-sm text-coffee-light leading-relaxed mb-4">
+                Chairs that lean back, lights overhead, and tools that whirr — your child will have seen it all before they sit down.
+              </p>
+              <div class="flex items-center justify-between">
+                <span class="font-body font-semibold text-sm text-coffee">CAD $9</span>
+                <a href="https://nextcomescalm.etsy.com"
+                   target="_blank" rel="noopener noreferrer"
+                   class="font-body font-semibold text-sm text-teal-dark hover:text-coffee
+                          transition-colors duration-200 flex items-center gap-1 cursor-pointer">
+                  Get this kit
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Vaccines -->
+          <article class="bg-cream rounded-2xl shadow-soft-sm overflow-hidden opacity-75">
+            <div class="kit-band" style="background-color: #A7C7E7;"></div>
+            <div class="p-6">
+              <div class="flex items-start justify-between mb-2">
+                <h3 class="font-heading font-semibold text-lg text-coffee">Vaccines</h3>
+                <span class="font-body text-xs font-semibold bg-cream-dark text-coffee-muted px-2 py-0.5 rounded-full">Coming soon</span>
+              </div>
+              <p class="font-body text-sm text-coffee-light leading-relaxed mb-4">
+                A quick sting that's done before they know it — this kit walks through every step so the anticipation is the hardest part.
+              </p>
+              <p class="font-body font-medium text-sm text-coffee-muted">Join the waitlist below to be notified.</p>
+            </div>
+          </article>
+
+          <!-- Leaving the Playground -->
+          <article class="bg-cream rounded-2xl shadow-soft-sm overflow-hidden opacity-75">
+            <div class="kit-band" style="background-color: #B4C6A6;"></div>
+            <div class="p-6">
+              <div class="flex items-start justify-between mb-2">
+                <h3 class="font-heading font-semibold text-lg text-coffee">Leaving the Playground</h3>
+                <span class="font-body text-xs font-semibold bg-cream-dark text-coffee-muted px-2 py-0.5 rounded-full">Coming soon</span>
+              </div>
+              <p class="font-body text-sm text-coffee-light leading-relaxed mb-4">
+                Stopping something they love, on someone else's timetable — this kit gives you the scripts for the gate, and for after.
+              </p>
+              <p class="font-body font-medium text-sm text-coffee-muted">Join the waitlist below to be notified.</p>
+            </div>
+          </article>
+
+          <!-- Morning Routine -->
+          <article class="bg-cream rounded-2xl shadow-soft-sm overflow-hidden opacity-75">
+            <div class="kit-band" style="background-color: #B4C6A6;"></div>
+            <div class="p-6">
+              <div class="flex items-start justify-between mb-2">
+                <h3 class="font-heading font-semibold text-lg text-coffee">Morning Routine</h3>
+                <span class="font-body text-xs font-semibold bg-cream-dark text-coffee-muted px-2 py-0.5 rounded-full">Coming soon</span>
+              </div>
+              <p class="font-body text-sm text-coffee-light leading-relaxed mb-4">
+                Breakfast, teeth, shoes, out the door — when the steps are predictable, mornings feel possible.
+              </p>
+              <p class="font-body font-medium text-sm text-coffee-muted">Join the waitlist below to be notified.</p>
+            </div>
+          </article>
+
+          <!-- First Day of School -->
+          <article class="bg-cream rounded-2xl shadow-soft-sm overflow-hidden opacity-75">
+            <div class="kit-band" style="background-color: #B4C6A6;"></div>
+            <div class="p-6">
+              <div class="flex items-start justify-between mb-2">
+                <h3 class="font-heading font-semibold text-lg text-coffee">First Day of School</h3>
+                <span class="font-body text-xs font-semibold bg-cream-dark text-coffee-muted px-2 py-0.5 rounded-full">Coming soon</span>
+              </div>
+              <p class="font-body text-sm text-coffee-light leading-relaxed mb-4">
+                New room, new teacher, new faces — knowing the steps before the first morning makes goodbye at the door easier for everyone.
+              </p>
+              <p class="font-body font-medium text-sm text-coffee-muted">Join the waitlist below to be notified.</p>
+            </div>
+          </article>
+
+          <!-- Blood Test -->
+          <article class="bg-cream rounded-2xl shadow-soft-sm overflow-hidden opacity-75">
+            <div class="kit-band" style="background-color: #A7C7E7;"></div>
+            <div class="p-6">
+              <div class="flex items-start justify-between mb-2">
+                <h3 class="font-heading font-semibold text-lg text-coffee">Blood Test</h3>
+                <span class="font-body text-xs font-semibold bg-cream-dark text-coffee-muted px-2 py-0.5 rounded-full">Coming soon</span>
+              </div>
+              <p class="font-body text-sm text-coffee-light leading-relaxed mb-4">
+                A pinch, a small tube, and it's over — this kit names what will happen so your child can handle it with you beside them.
+              </p>
+              <p class="font-body font-medium text-sm text-coffee-muted">Join the waitlist below to be notified.</p>
+            </div>
+          </article>
+
+          <!-- Restaurant -->
+          <article class="bg-cream rounded-2xl shadow-soft-sm overflow-hidden opacity-75">
+            <div class="kit-band" style="background-color: #E6C870;"></div>
+            <div class="p-6">
+              <div class="flex items-start justify-between mb-2">
+                <h3 class="font-heading font-semibold text-lg text-coffee">Restaurant</h3>
+                <span class="font-body text-xs font-semibold bg-cream-dark text-coffee-muted px-2 py-0.5 rounded-full">Coming soon</span>
+              </div>
+              <p class="font-body text-sm text-coffee-light leading-relaxed mb-4">
+                Waiting, ordering, noise, and sitting still — when they know what eating out looks like, it can actually be fun.
+              </p>
+              <p class="font-body font-medium text-sm text-coffee-muted">Join the waitlist below to be notified.</p>
+            </div>
+          </article>
+
+          <!-- Haircut — LIVE -->
+          <article class="bg-cream rounded-2xl shadow-soft-sm hover:shadow-soft-md overflow-hidden kit-card">
+            <div class="kit-band" style="background-color: #B4C6A6;"></div>
+            <div class="p-6">
+              <div class="flex items-start justify-between mb-2">
+                <h3 class="font-heading font-semibold text-lg text-coffee">Haircut</h3>
+                <span class="font-body text-xs font-semibold bg-teal/20 text-teal-dark px-2 py-0.5 rounded-full">Available</span>
+              </div>
+              <p class="font-body text-sm text-coffee-light leading-relaxed mb-4">
+                Scissors near the face, the cape, the sounds — this kit walks through every step so the salon feels familiar.
+              </p>
+              <div class="flex items-center justify-between">
+                <span class="font-body font-semibold text-sm text-coffee">CAD $9</span>
+                <a href="https://nextcomescalm.etsy.com"
+                   target="_blank" rel="noopener noreferrer"
+                   class="font-body font-semibold text-sm text-teal-dark hover:text-coffee
+                          transition-colors duration-200 flex items-center gap-1 cursor-pointer">
+                  Get this kit
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Airplane — LIVE -->
+          <article class="bg-cream rounded-2xl shadow-soft-sm hover:shadow-soft-md overflow-hidden kit-card">
+            <div class="kit-band" style="background-color: #B4C6A6;"></div>
+            <div class="p-6">
+              <div class="flex items-start justify-between mb-2">
+                <h3 class="font-heading font-semibold text-lg text-coffee">Airplane Trip</h3>
+                <span class="font-body text-xs font-semibold bg-teal/20 text-teal-dark px-2 py-0.5 rounded-full">Available</span>
+              </div>
+              <p class="font-body text-sm text-coffee-light leading-relaxed mb-4">
+                From packing to landing — when every airport step is familiar, first-time flyers feel ready before they board.
+              </p>
+              <div class="flex items-center justify-between">
+                <span class="font-body font-semibold text-sm text-coffee">CAD $9</span>
+                <a href="https://nextcomescalm.etsy.com"
+                   target="_blank" rel="noopener noreferrer"
+                   class="font-body font-semibold text-sm text-teal-dark hover:text-coffee
+                          transition-colors duration-200 flex items-center gap-1 cursor-pointer">
+                  Get this kit
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Birthday — LIVE -->
+          <article class="bg-cream rounded-2xl shadow-soft-sm hover:shadow-soft-md overflow-hidden kit-card">
+            <div class="kit-band" style="background-color: #E8D3C9;"></div>
+            <div class="p-6">
+              <div class="flex items-start justify-between mb-2">
+                <h3 class="font-heading font-semibold text-lg text-coffee">Birthday Party</h3>
+                <span class="font-body text-xs font-semibold bg-teal/20 text-teal-dark px-2 py-0.5 rounded-full">Available</span>
+              </div>
+              <p class="font-body text-sm text-coffee-light leading-relaxed mb-4">
+                All that attention, noise, and unpredictability — this kit makes the celebration feel manageable before the day arrives.
+              </p>
+              <div class="flex items-center justify-between">
+                <span class="font-body font-semibold text-sm text-coffee">CAD $14</span>
+                <a href="https://nextcomescalm.etsy.com"
+                   target="_blank" rel="noopener noreferrer"
+                   class="font-body font-semibold text-sm text-teal-dark hover:text-coffee
+                          transition-colors duration-200 flex items-center gap-1 cursor-pointer">
+                  Get this kit
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Grocery — LIVE -->
+          <article class="bg-cream rounded-2xl shadow-soft-sm hover:shadow-soft-md overflow-hidden kit-card">
+            <div class="kit-band" style="background-color: #E6C870;"></div>
+            <div class="p-6">
+              <div class="flex items-start justify-between mb-2">
+                <h3 class="font-heading font-semibold text-lg text-coffee">Grocery Store</h3>
+                <span class="font-body text-xs font-semibold bg-teal/20 text-teal-dark px-2 py-0.5 rounded-full">Available</span>
+              </div>
+              <p class="font-body text-sm text-coffee-light leading-relaxed mb-4">
+                Loud, long, and full of things they can't touch — use this kit at home the night before and it becomes manageable.
+              </p>
+              <div class="flex items-center justify-between">
+                <span class="font-body font-semibold text-sm text-coffee">CAD $9</span>
+                <a href="https://nextcomescalm.etsy.com"
+                   target="_blank" rel="noopener noreferrer"
+                   class="font-body font-semibold text-sm text-teal-dark hover:text-coffee
+                          transition-colors duration-200 flex items-center gap-1 cursor-pointer">
+                  Get this kit
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Picture Day — LIVE -->
+          <article class="bg-cream rounded-2xl shadow-soft-sm hover:shadow-soft-md overflow-hidden kit-card">
+            <div class="kit-band" style="background-color: #A7C7E7;"></div>
+            <div class="p-6">
+              <div class="flex items-start justify-between mb-2">
+                <h3 class="font-heading font-semibold text-lg text-coffee">Picture Day</h3>
+                <span class="font-body text-xs font-semibold bg-teal/20 text-teal-dark px-2 py-0.5 rounded-full">Available</span>
+              </div>
+              <p class="font-body text-sm text-coffee-light leading-relaxed mb-4">
+                The camera, the line, the instructions — use this kit at home the night before so your child feels like themselves on the day.
+              </p>
+              <div class="flex items-center justify-between">
+                <span class="font-body font-semibold text-sm text-coffee">CAD $9</span>
+                <a href="https://nextcomescalm.etsy.com"
+                   target="_blank" rel="noopener noreferrer"
+                   class="font-body font-semibold text-sm text-teal-dark hover:text-coffee
+                          transition-colors duration-200 flex items-center gap-1 cursor-pointer">
+                  Get this kit
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- More kits teaser -->
+          <article class="bg-cream-dark rounded-2xl shadow-soft-sm p-6 flex flex-col items-center justify-center text-center border-2 border-dashed border-sage">
+            <div class="w-10 h-10 rounded-full bg-sage/40 flex items-center justify-center mb-3" aria-hidden="true">
+              <svg class="w-5 h-5 text-coffee" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6v6m0 0v6m0-6h6m-6 0H6"/>
+              </svg>
+            </div>
+            <h3 class="font-heading font-semibold text-base text-coffee mb-1">More coming</h3>
+            <p class="font-body text-sm text-coffee-light mb-3">Vaccines, Blood Test, Morning Routine &amp; more</p>
+            <a href="#email-capture"
+               class="font-body font-semibold text-sm text-teal-dark hover:text-coffee transition-colors duration-200 cursor-pointer">
+              Get notified →
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave: sage → cream -->
+    <div class="wave-divider" style="background-color: rgba(180,198,166,0.2);" aria-hidden="true">
+      <svg viewBox="0 0 1440 48" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style="height:48px">
+        <path d="M0,16 C360,48 1080,0 1440,32 L1440,48 L0,48 Z" fill="#FDFBF5"/>
+      </svg>
+    </div>
+
+    <!-- ============================================================
+         SECTION 5: TESTIMONIALS PLACEHOLDER
+    ============================================================ -->
+    <section class="bg-cream py-14" aria-label="What parents are saying">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="font-heading font-bold text-2xl sm:text-3xl text-coffee mb-3">
+          What parents are saying
+        </h2>
+        <p class="font-body text-sm text-coffee-muted mb-10">
+          Reviews from Etsy &nbsp;·&nbsp; Verified purchases
+        </p>
+
+        <!-- Testimonial cards — real Etsy reviews -->
+        <div class="grid sm:grid-cols-3 gap-5 text-left">
+          <blockquote class="bg-cream-dark rounded-2xl shadow-soft-sm p-6 relative overflow-hidden">
+            <!-- Decorative quote mark -->
+            <svg class="absolute top-3 right-3 w-10 h-10 text-sage opacity-30 pointer-events-none" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+              <path d="M10,8 C5.6,8 2,11.6 2,16 C2,20.4 5.6,24 10,24 L10,30 C4,28 0,22.4 0,16 C0,8.3 5.4,2 12,2 L10,8 Z M26,8 C21.6,8 18,11.6 18,16 C18,20.4 21.6,24 26,24 L26,30 C20,28 16,22.4 16,16 C16,8.3 21.4,2 28,2 L26,8 Z"/>
+            </svg>
+            <div class="flex gap-0.5 mb-3" aria-label="5 stars">
+              <svg class="w-4 h-4 text-gold fill-current" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-4 h-4 text-gold fill-current" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-4 h-4 text-gold fill-current" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-4 h-4 text-gold fill-current" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-4 h-4 text-gold fill-current" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <p class="font-body text-sm text-coffee-light leading-relaxed italic mb-3">
+              "These have been such a great addition to our home. My child was drawn to them right away, and what I like most is that they're not just cute, they're actually useful. As a parent of a neurodiverse child, transitions and big emotions can be tough, but this gives us a simple, visual way to talk about feelings and what to do next. It's been a real game changer in helping my child understand and manage their emotions."
+            </p>
+            <p class="font-body font-semibold text-xs text-coffee">Britneey &middot; Verified Etsy purchase</p>
+          </blockquote>
+
+          <blockquote class="bg-cream-dark rounded-2xl shadow-soft-sm p-6 relative overflow-hidden">
+            <!-- Decorative quote mark -->
+            <svg class="absolute top-3 right-3 w-10 h-10 text-sage opacity-30 pointer-events-none" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+              <path d="M10,8 C5.6,8 2,11.6 2,16 C2,20.4 5.6,24 10,24 L10,30 C4,28 0,22.4 0,16 C0,8.3 5.4,2 12,2 L10,8 Z M26,8 C21.6,8 18,11.6 18,16 C18,20.4 21.6,24 26,24 L26,30 C20,28 16,22.4 16,16 C16,8.3 21.4,2 28,2 L26,8 Z"/>
+            </svg>
+            <div class="flex gap-0.5 mb-3" aria-label="5 stars">
+              <svg class="w-4 h-4 text-gold fill-current" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-4 h-4 text-gold fill-current" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-4 h-4 text-gold fill-current" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-4 h-4 text-gold fill-current" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-4 h-4 text-gold fill-current" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <p class="font-body text-sm text-coffee-light leading-relaxed italic mb-3">
+              "I recommend this shop. My son likes visual pictures very much."
+            </p>
+            <p class="font-body font-semibold text-xs text-coffee">Etsy buyer &middot; Verified Etsy purchase</p>
+          </blockquote>
+
+          <blockquote class="bg-cream-dark rounded-2xl shadow-soft-sm p-6 relative overflow-hidden">
+            <!-- Decorative quote mark -->
+            <svg class="absolute top-3 right-3 w-10 h-10 text-sage opacity-30 pointer-events-none" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+              <path d="M10,8 C5.6,8 2,11.6 2,16 C2,20.4 5.6,24 10,24 L10,30 C4,28 0,22.4 0,16 C0,8.3 5.4,2 12,2 L10,8 Z M26,8 C21.6,8 18,11.6 18,16 C18,20.4 21.6,24 26,24 L26,30 C20,28 16,22.4 16,16 C16,8.3 21.4,2 28,2 L26,8 Z"/>
+            </svg>
+            <div class="flex gap-0.5 mb-3" aria-label="5 stars">
+              <svg class="w-4 h-4 text-gold fill-current" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-4 h-4 text-gold fill-current" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-4 h-4 text-gold fill-current" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-4 h-4 text-gold fill-current" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-4 h-4 text-gold fill-current" viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <p class="font-body text-sm text-coffee-light leading-relaxed italic mb-3">
+              "My child now uses them as a fun tool to better understand and manage their emotions, and it's made a real difference for us at home."
+            </p>
+            <p class="font-body font-semibold text-xs text-coffee">Britneey &middot; Verified Etsy purchase</p>
+          </blockquote>
+        </div>
+
+        <!-- Mid-page CTA -->
+        <div class="mt-10 text-center">
+          <a href="https://nextcomescalm.etsy.com"
+             target="_blank" rel="noopener noreferrer"
+             class="inline-flex items-center gap-2 font-body font-semibold text-base
+                    bg-coffee text-cream hover:bg-coffee-light px-8 py-3.5 rounded-xl
+                    transition-colors duration-200 cursor-pointer min-h-[48px]">
+            Shop all kits on Etsy
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 6: FAQ
+    ============================================================ -->
+    <section id="faq" class="bg-cream-dark py-16 lg:py-20" aria-label="Frequently asked questions">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="text-center mb-10">
+          <h2 class="font-heading font-bold text-3xl sm:text-4xl text-coffee mb-3">
+            Questions parents ask
+          </h2>
+          <p class="font-body text-base text-coffee-light">Everything you need to know before you print.</p>
+        </div>
+
+        <div class="space-y-4">
+
+          <!-- Q1 -->
+          <details class="group bg-cream rounded-2xl shadow-soft-sm overflow-hidden">
+            <summary class="flex items-center justify-between px-6 py-5 cursor-pointer list-none
+                            font-heading font-semibold text-base text-coffee
+                            hover:bg-cream-dark transition-colors duration-200">
+              How much does a kit cost?
+              <svg class="w-5 h-5 text-coffee-muted flex-shrink-0 transition-transform duration-200 group-open:rotate-180"
+                   fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="px-6 pb-5">
+              <p class="font-body text-sm text-coffee-light leading-relaxed">
+                Each kit is <strong>$4.99</strong>. You get a 19-page PDF download with instant access — no subscription, no recurring fees. Print as many times as you need for your family.
+              </p>
+            </div>
+          </details>
+
+          <!-- Q2 -->
+          <details class="group bg-cream rounded-2xl shadow-soft-sm overflow-hidden">
+            <summary class="flex items-center justify-between px-6 py-5 cursor-pointer list-none
+                            font-heading font-semibold text-base text-coffee
+                            hover:bg-cream-dark transition-colors duration-200">
+              Can I print it more than once?
+              <svg class="w-5 h-5 text-coffee-muted flex-shrink-0 transition-transform duration-200 group-open:rotate-180"
+                   fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="px-6 pb-5">
+              <p class="font-body text-sm text-coffee-light leading-relaxed">
+                Yes — print as many copies as your family needs. The file is yours to keep. Many parents print a fresh copy each time an appointment comes around.
+              </p>
+            </div>
+          </details>
+
+          <!-- Q3 -->
+          <details class="group bg-cream rounded-2xl shadow-soft-sm overflow-hidden">
+            <summary class="flex items-center justify-between px-6 py-5 cursor-pointer list-none
+                            font-heading font-semibold text-base text-coffee
+                            hover:bg-cream-dark transition-colors duration-200">
+              What age is this for?
+              <svg class="w-5 h-5 text-coffee-muted flex-shrink-0 transition-transform duration-200 group-open:rotate-180"
+                   fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="px-6 pb-5">
+              <p class="font-body text-sm text-coffee-light leading-relaxed">
+                The kits are designed for children ages 2–8. The visual story uses simple words and illustrated panels so even pre-readers can follow along with a parent. Older children in this range often love being able to read parts themselves.
+              </p>
+            </div>
+          </details>
+
+          <!-- Q4 -->
+          <details class="group bg-cream rounded-2xl shadow-soft-sm overflow-hidden">
+            <summary class="flex items-center justify-between px-6 py-5 cursor-pointer list-none
+                            font-heading font-semibold text-base text-coffee
+                            hover:bg-cream-dark transition-colors duration-200">
+              Do I need to read it with my child?
+              <svg class="w-5 h-5 text-coffee-muted flex-shrink-0 transition-transform duration-200 group-open:rotate-180"
+                   fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="px-6 pb-5">
+              <p class="font-body text-sm text-coffee-light leading-relaxed">
+                Yes — reading together is half the work. The kits are designed for your kitchen table, 1–3 nights before the appointment. Your calm presence while reading is what makes the difference. The Parent Scripts page gives you exact things to say if you're not sure what words to use.
+              </p>
+            </div>
+          </details>
+
+          <!-- Q5 -->
+          <details class="group bg-cream rounded-2xl shadow-soft-sm overflow-hidden">
+            <summary class="flex items-center justify-between px-6 py-5 cursor-pointer list-none
+                            font-heading font-semibold text-base text-coffee
+                            hover:bg-cream-dark transition-colors duration-200">
+              What file format is it? What do I need to print it?
+              <svg class="w-5 h-5 text-coffee-muted flex-shrink-0 transition-transform duration-200 group-open:rotate-180"
+                   fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="px-6 pb-5">
+              <p class="font-body text-sm text-coffee-light leading-relaxed">
+                Each kit is a <strong>PDF download</strong>. You'll get it instantly after purchase on Etsy. Print on standard US Letter paper — no special paper, laminator, or supplies needed. A basic home printer works perfectly.
+              </p>
+            </div>
+          </details>
+
+          <!-- Q6 -->
+          <details class="group bg-cream rounded-2xl shadow-soft-sm overflow-hidden">
+            <summary class="flex items-center justify-between px-6 py-5 cursor-pointer list-none
+                            font-heading font-semibold text-base text-coffee
+                            hover:bg-cream-dark transition-colors duration-200">
+              What if my child doesn't seem interested or ready?
+              <svg class="w-5 h-5 text-coffee-muted flex-shrink-0 transition-transform duration-200 group-open:rotate-180"
+                   fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="px-6 pb-5">
+              <p class="font-body text-sm text-coffee-light leading-relaxed">
+                That's very normal. Try starting with just the visual story pages — no pressure to cover the whole kit in one sitting. Some children need two or three reads before the appointment to feel ready. The kit includes a <em>When Plans Change</em> page specifically for days when things don't go as hoped. Educational support, not medical advice.
+              </p>
+            </div>
+          </details>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave: cream-dark → coffee -->
+    <div class="wave-divider bg-cream-dark" aria-hidden="true">
+      <svg viewBox="0 0 1440 56" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style="height:56px">
+        <path d="M0,28 C240,56 480,0 720,28 C960,56 1200,0 1440,28 L1440,56 L0,56 Z" fill="#3F322C"/>
+      </svg>
+    </div>
+
+    <!-- ============================================================
+         SECTION 7: EMAIL CAPTURE
+    ============================================================ -->
+    <section id="email-capture" class="bg-coffee pt-8 pb-16 lg:pb-20" aria-label="Join the mailing list">
+      <div class="max-w-lg mx-auto px-4 sm:px-6 text-center">
+
+        <h2 class="font-heading font-bold text-3xl sm:text-4xl text-cream mb-4">
+          Be the first to know when new kits arrive
+        </h2>
+        <p class="font-body text-base text-blush mb-8 leading-relaxed">
+          Get a free sample page from the Eye Exam kit — plus a note when new kits launch.
+        </p>
+
+        <!-- =====================================================
+             MAILERLITE EMBED — replace action URL with yours
+             Steps:
+             1. Create free MailerLite account at mailerlite.com
+                (free up to 1,000 subscribers + automation included)
+             2. Forms > Embedded forms > Create form
+             3. Select "HTML embed" — copy only the <form> action URL
+             4. Paste action URL below and update the hidden fields
+             5. In MailerLite: set up Automation > When subscriber
+                joins group > Send email (attach free sample PDF)
+             ===================================================== -->
+        <form action="https://assets.mailerlite.com/jsonp/2264930/forms/184719798988441369/subscribe"
+              method="post"
+              target="_blank">
+
+          <input type="hidden" name="ml-submit" value="1">
+          <input type="hidden" name="anticsrf" value="true">
+
+          <div class="flex flex-col gap-3">
+            <div>
+              <label for="ml-email" class="block font-body font-medium text-sm text-blush mb-2 text-left">
+                Your email address
+              </label>
+              <input type="email"
+                     id="ml-email"
+                     name="fields[email]"
+                     placeholder="you@example.com"
+                     required
+                     autocomplete="email"
+                     class="w-full rounded-xl border-0 px-4 py-3 font-body text-base text-coffee
+                            bg-cream placeholder-coffee-muted
+                            focus:outline-none focus:ring-2 focus:ring-teal
+                            min-h-[48px]">
+            </div>
+            <button type="submit"
+                    class="w-full bg-teal hover:bg-teal-dark text-coffee font-body font-semibold
+                           text-base py-3 rounded-xl transition-colors duration-200
+                           cursor-pointer min-h-[48px]">
+              Send me the free sample
+            </button>
+          </div>
+        </form>
+
+        <p class="font-body text-xs text-blush/60 mt-4">
+          No spam. Just kit updates and the occasional parent tip. Unsubscribe any time.
+        </p>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="bg-coffee" aria-label="Footer">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-8">
+
+      <div class="grid sm:grid-cols-3 gap-8 mb-10">
+
+        <!-- Brand -->
+        <div>
+          <p class="font-heading font-bold text-xl text-cream mb-2">Next Comes Calm</p>
+          <p class="font-body text-sm text-blush/80 leading-relaxed mb-3">
+            Peace of mind, one calm moment at a time.
+          </p>
+          <p class="font-body text-xs text-coffee-muted">Home of Breeze.</p>
+        </div>
+
+        <!-- Shop -->
+        <div>
+          <h3 class="font-body font-semibold text-sm text-cream mb-4">Shop</h3>
+          <ul class="space-y-2">
+            <li>
+              <a href="https://nextcomescalm.etsy.com"
+                 target="_blank" rel="noopener noreferrer"
+                 class="font-body text-sm text-blush/80 hover:text-cream transition-colors duration-200">
+                All kits on Etsy
+              </a>
+            </li>
+            <li>
+              <a href="https://nextcomescalm.etsy.com"
+                 target="_blank" rel="noopener noreferrer"
+                 class="font-body text-sm text-blush/80 hover:text-cream transition-colors duration-200">
+                Eye Exam Kit — $4.99
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Find us -->
+        <div>
+          <h3 class="font-body font-semibold text-sm text-cream mb-4">Find us</h3>
+          <ul class="space-y-2">
+            <li>
+              <a href="https://nextcomescalm.etsy.com"
+                 target="_blank" rel="noopener noreferrer"
+                 class="font-body text-sm text-blush/80 hover:text-cream transition-colors duration-200">
+                Etsy shop
+              </a>
+            </li>
+            <li>
+              <a href="https://pinterest.com/nextcomescalm"
+                 target="_blank" rel="noopener noreferrer"
+                 class="font-body text-sm text-blush/80 hover:text-cream transition-colors duration-200">
+                Pinterest
+              </a>
+            </li>
+            <li>
+              <a href="blog/"
+                 class="font-body text-sm text-blush/80 hover:text-cream transition-colors duration-200">
+                Calm prep guides
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
+        <p class="font-body text-xs text-coffee-muted text-center sm:text-left">
+          &copy; 2026 Next Comes Calm. Educational support, not medical advice.
+        </p>
+        <p class="font-body text-xs text-coffee-muted text-center sm:text-right">
+          Images in our kits were created with AI image generation tools.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Fallback script: show Breeze placeholder if image missing -->
+  <script>
+    document.querySelectorAll('.breeze-fallback').forEach(function(el) {
+      var fallback = el.querySelector('.breeze-fallback-content');
+      if (fallback) fallback.style.display = '';
+    });
+  </script>
+
+</body>
+</html>
