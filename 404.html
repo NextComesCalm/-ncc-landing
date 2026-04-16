@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found | Next Comes Calm</title>
+
+  <link rel="canonical" href="https://nextcomescalm.netlify.app/404.html">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cream:          '#FDFBF5',
+            'cream-dark':   '#F5F0E8',
+            coffee:         '#3F322C',
+            'coffee-light': '#6B5249',
+            'coffee-muted': '#9C8880',
+            teal:           '#94D1BE',
+            'teal-dark':    '#6BADA0',
+            sage:           '#B4C6A6',
+            'sage-light':   '#D4E3CC',
+            blush:          '#E8D3C9',
+            gold:           '#E6C870',
+            blue:           '#A7C7E7',
+          },
+          fontFamily: {
+            heading: ['"Baloo 2"', 'sans-serif'],
+            body:    ['Quicksand', 'sans-serif'],
+          },
+          boxShadow: {
+            'soft-sm': '0 2px 8px rgba(63,50,44,0.08)',
+            'soft-md': '0 4px 16px rgba(63,50,44,0.12)',
+          },
+        }
+      }
+    }
+  </script>
+
+  <style>
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+      }
+    }
+    body { background-color: #FDFBF5; }
+    :focus-visible {
+      outline: 2px solid #94D1BE;
+      outline-offset: 3px;
+    }
+  </style>
+</head>
+
+<body class="font-body text-coffee antialiased min-h-screen flex flex-col">
+
+  <!-- Skip link -->
+  <a href="#main-content"
+     class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50
+            bg-teal text-coffee font-body font-semibold px-4 py-2 rounded-xl">
+    Skip to main content
+  </a>
+
+  <!-- ============================================================
+       HEADER / NAV
+  ============================================================ -->
+  <header class="sticky top-0 z-40 bg-cream/95 backdrop-blur-sm border-b border-cream-dark">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+      <a href="/" class="font-heading font-bold text-xl text-coffee" aria-label="Next Comes Calm home">
+        Next Comes Calm
+      </a>
+      <nav aria-label="Main navigation">
+        <ul class="flex items-center gap-1 sm:gap-2">
+          <li>
+            <a href="/#why-it-works"
+               class="font-body font-medium text-sm text-coffee-light hover:text-coffee
+                      px-3 py-2 rounded-lg transition-colors duration-200 hidden sm:inline-block">
+              Why it works
+            </a>
+          </li>
+          <li>
+            <a href="/#catalog"
+               class="font-body font-medium text-sm text-coffee-light hover:text-coffee
+                      px-3 py-2 rounded-lg transition-colors duration-200 hidden sm:inline-block">
+              Kits
+            </a>
+          </li>
+          <li>
+            <a href="blog/"
+               class="font-body font-medium text-sm text-coffee-light hover:text-coffee
+                      px-3 py-2 rounded-lg transition-colors duration-200 hidden sm:inline-block">
+              Blog
+            </a>
+          </li>
+          <li>
+            <a href="https://nextcomescalm.etsy.com"
+               target="_blank" rel="noopener noreferrer"
+               class="font-body font-semibold text-sm text-coffee bg-teal hover:bg-teal-dark
+                      px-4 py-2 rounded-xl transition-colors duration-200 cursor-pointer">
+              Shop on Etsy
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       MAIN — 404 MESSAGE
+  ============================================================ -->
+  <main id="main-content" class="flex-1 flex items-center justify-center px-4 sm:px-6 lg:px-8 py-24">
+    <div class="max-w-lg w-full text-center">
+
+      <!-- Subtle page label -->
+      <p class="font-body text-sm font-semibold text-coffee-muted uppercase tracking-widest mb-6">
+        404
+      </p>
+
+      <!-- Heading -->
+      <h1 class="font-heading font-bold text-4xl sm:text-5xl text-coffee leading-tight mb-4">
+        We couldn't find that page.
+      </h1>
+
+      <!-- Supporting line -->
+      <p class="font-body text-lg text-coffee-light leading-relaxed mb-10">
+        It might have moved, or the link might be a little off.<br class="hidden sm:block">
+        No trouble — here's where to go from here.
+      </p>
+
+      <!-- CTA buttons -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="/"
+           class="font-body font-semibold text-base text-coffee bg-teal hover:bg-teal-dark
+                  px-7 py-3 rounded-xl shadow-soft-sm transition-colors duration-200 w-full sm:w-auto text-center">
+          Go to homepage
+        </a>
+        <a href="/#catalog"
+           class="font-body font-semibold text-base text-coffee-light hover:text-coffee
+                  bg-cream-dark hover:bg-blush border border-blush
+                  px-7 py-3 rounded-xl shadow-soft-sm transition-colors duration-200 w-full sm:w-auto text-center">
+          Browse all kits
+        </a>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="bg-coffee" aria-label="Footer">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-8">
+
+      <div class="grid sm:grid-cols-3 gap-8 mb-10">
+
+        <!-- Brand -->
+        <div>
+          <p class="font-heading font-bold text-xl text-cream mb-2">Next Comes Calm</p>
+          <p class="font-body text-sm text-blush/80 leading-relaxed mb-3">
+            Peace of mind, one calm moment at a time.
+          </p>
+          <p class="font-body text-xs text-coffee-muted">Home of Breeze.</p>
+        </div>
+
+        <!-- Shop -->
+        <div>
+          <h3 class="font-body font-semibold text-sm text-cream mb-4">Shop</h3>
+          <ul class="space-y-2">
+            <li>
+              <a href="https://nextcomescalm.etsy.com"
+                 target="_blank" rel="noopener noreferrer"
+                 class="font-body text-sm text-blush/80 hover:text-cream transition-colors duration-200">
+                All kits on Etsy
+              </a>
+            </li>
+            <li>
+              <a href="https://www.etsy.com/ca/listing/4487214623/eye-exam-prep-kit-for-kids-visual"
+                 target="_blank" rel="noopener noreferrer"
+                 class="font-body text-sm text-blush/80 hover:text-cream transition-colors duration-200">
+                Eye Exam Kit — CAD $9
+              </a>
+            </li>
+            <li>
+              <a href="https://www.etsy.com/ca/listing/4479345554/dentist-visit-prep-kit-for-kids-visual"
+                 target="_blank" rel="noopener noreferrer"
+                 class="font-body text-sm text-blush/80 hover:text-cream transition-colors duration-200">
+                Dentist Visit Kit — CAD $9
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Find us -->
+        <div>
+          <h3 class="font-body font-semibold text-sm text-cream mb-4">Find us</h3>
+          <ul class="space-y-2">
+            <li>
+              <a href="https://nextcomescalm.etsy.com"
+                 target="_blank" rel="noopener noreferrer"
+                 class="font-body text-sm text-blush/80 hover:text-cream transition-colors duration-200">
+                Etsy shop
+              </a>
+            </li>
+            <li>
+              <a href="https://pinterest.com/nextcomescalm"
+                 target="_blank" rel="noopener noreferrer"
+                 class="font-body text-sm text-blush/80 hover:text-cream transition-colors duration-200">
+                Pinterest
+              </a>
+            </li>
+            <li>
+              <a href="blog/"
+                 class="font-body text-sm text-blush/80 hover:text-cream transition-colors duration-200">
+                Calm prep guides
+              </a>
+            </li>
+            <li>
+              <a href="mailto:nextcomescalm@gmail.com"
+                 class="font-body text-sm text-blush/80 hover:text-cream transition-colors duration-200">
+                Contact us
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <p class="font-body text-xs text-coffee-muted text-center sm:text-left">
+          &copy; 2026 Next Comes Calm. Educational support, not medical advice.
+        </p>
+        <div class="flex flex-wrap items-center justify-center gap-x-4 gap-y-1">
+          <a href="mailto:nextcomescalm@gmail.com" class="font-body text-xs text-coffee-muted hover:text-blush/80 transition-colors">Contact</a>
+          <span class="text-coffee-muted" aria-hidden="true">·</span>
+          <a href="privacy.html" class="font-body text-xs text-coffee-muted hover:text-blush/80 transition-colors">Privacy Policy</a>
+          <span class="text-coffee-muted" aria-hidden="true">·</span>
+          <a href="terms.html" class="font-body text-xs text-coffee-muted hover:text-blush/80 transition-colors">Terms &amp; License</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
