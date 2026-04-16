@@ -1,0 +1,101 @@
+NCC MAILERLITE WELCOME SEQUENCE
+================================
+3 emails. Paste each into MailerLite automation.
+Trigger: subscriber joins group.
+
+---
+
+EMAIL 1 — Send immediately
+Subject: Your free sample is inside
+Preview text: One page from the Eye Exam kit, ready to print.
+
+---
+
+Hi there,
+
+Thank you for signing up. Here's your free sample page from the Next Comes Calm Eye Exam kit — one visual story panel you can print and read with your child tonight.
+
+[BUTTON: Download your free sample →]
+Link: https://nextcomescalm.netlify.app/sample.pdf
+
+Next Comes Calm kits help children feel ready before the moments that catch them off guard — the waiting room, the unfamiliar chair, the equipment they've never seen before. Each kit is a 19-page printable you read together in the days before. They're especially useful for children who need to know exactly what to expect — including those who find new situations genuinely overwhelming.
+
+If the Eye Exam kit isn't the right fit right now, you might find one that is:
+
+[BUTTON: Browse all kits on Etsy →]
+Link: https://nextcomescalm.etsy.com
+
+More soon.
+
+— Next Comes Calm
+
+Educational support, not medical advice.
+
+---
+
+EMAIL 2 — Send on Day 3
+Subject: The one thing that helped before the dentist
+Preview text: It's not distraction. It's not bribery. It's this.
+
+---
+
+Hi,
+
+The dentist is one of the hardest appointments for young children — not because they're being difficult, but because nothing about it is familiar. The smell, the chair that moves, the tools going into their mouth. From a child's perspective, it's a lot of unknown.
+
+The thing that helps most isn't distraction. It isn't promises of a treat after. It's reading through what's going to happen before it happens — so none of it comes as a surprise.
+
+The Next Comes Calm Dentist Visit kit walks through the appointment step by step, in language a four-year-old can follow. There's a visual story, parent scripts for the hard moments, and cards your child can hold during the visit.
+
+[BUTTON: Get the Dentist Visit Kit — CAD $9 →]
+Link: https://www.etsy.com/ca/listing/4479345554/dentist-visit-prep-kit-for-kids-visual
+
+Read it together the night before. That's it.
+
+— Next Comes Calm
+
+Educational support, not medical advice.
+
+---
+
+EMAIL 3 — Send on Day 7
+Subject: 11 kits, one calm child
+Preview text: Eye exams, dentist, haircuts, airplane travel, and more.
+
+---
+
+Hi,
+
+A quick note on what we make.
+
+Next Comes Calm kits are 19-page printable downloads for the moments young children find hardest — not because anything is wrong with them, but because some experiences are genuinely unfamiliar and a little overwhelming.
+
+Each kit covers one specific scenario:
+
+• Eye exam · Dentist · Doctor visit
+• Haircut · Picture day · Birthday party
+• Airplane travel · Grocery shopping
+• Morning routine · Bedtime · Screen time transitions
+
+Every kit includes a visual story, parent scripts, step cards, and brave choices your child can practise at home. Print, read together, repeat.
+
+[BUTTON: Browse all kits →]
+Link: https://nextcomescalm.etsy.com
+
+If there's a scenario your child struggles with that you don't see listed, reply and let me know. The next kit might be exactly that.
+
+— Next Comes Calm
+
+Educational support, not medical advice.
+
+---
+
+MAILERLITE SETUP NOTES
+======================
+- Automation trigger: subscriber joins group (the group tied to your form)
+- Email 1: send immediately after trigger
+- Email 2: send 3 days after Email 1
+- Email 3: send 4 days after Email 2 (7 days total from signup)
+- Replace [BUTTON: ...] with MailerLite button blocks
+- Update sample.pdf link in Email 1 once the file is hosted on Netlify
+  (Until then: link directly to https://nextcomescalm.etsy.com in Email 1)
