@@ -6,23 +6,23 @@ Trigger: subscriber joins group.
 ---
 
 EMAIL 1 — Send immediately
-Subject: Your free sample is inside
-Preview text: One page from the Eye Exam kit, ready to print.
+Subject: Your free printable is inside
+Preview text: The First-Then-Next board, ready to print or save to your phone.
 
 ---
 
 Hi there,
 
-Thank you for signing up. Here's your free sample page from the Next Comes Calm Eye Exam kit — one visual story panel you can print and read with your child tonight.
+Thank you for signing up. Here's your free First-Then-Next board — the same simple planning tool built into every Next Comes Calm kit. Print it, or keep it on your phone for any hard moment.
 
-[BUTTON: Download your free sample →]
-Link: https://nextcomescalm.netlify.app/sample.pdf
+[BUTTON: Download your free board →]
+Link: https://nextcomescalm.netlify.app/assets/first-then-next-board.pdf
 
-Next Comes Calm kits help children feel ready before the moments that catch them off guard — the waiting room, the unfamiliar chair, the equipment they've never seen before. Each kit is a 19-page printable you read together in the days before. They're especially useful for children who need to know exactly what to expect — including those who find new situations genuinely overwhelming.
+Next Comes Calm kits help children feel ready before the moments that catch them off guard — a doctor visit, a haircut, the school morning rush. Each kit is a short printable PDF you read together in the days before. They're especially useful for children who need to know exactly what to expect — including those who find new situations genuinely overwhelming.
 
-If the Eye Exam kit isn't the right fit right now, you might find one that is:
+Take a look at the full catalog:
 
-[BUTTON: Browse all kits on Etsy →]
+[BUTTON: Browse all kits →]
 Link: https://nextcomescalm.etsy.com
 
 More soon.
@@ -45,10 +45,10 @@ The dentist is one of the hardest appointments for young children — not becaus
 
 The thing that helps most isn't distraction. It isn't promises of a treat after. It's reading through what's going to happen before it happens — so none of it comes as a surprise.
 
-The Next Comes Calm Dentist Visit kit walks through the appointment step by step, in language a four-year-old can follow. There's a visual story, parent scripts for the hard moments, and cards your child can hold during the visit.
+The Next Comes Calm Dentist Visit kit walks through the appointment step by step, in language a young child can follow. There's a visual plan, a First-Then-Next board, a comfort plan, and communication cards your child can use during the visit.
 
-[BUTTON: Get the Dentist Visit Kit — CAD $9 →]
-Link: https://www.etsy.com/ca/listing/4479345554/dentist-visit-prep-kit-for-kids-visual
+[BUTTON: Get the Dentist Visit Kit — CA$6.95 →]
+Link: https://www.etsy.com/ca/listing/4556936538/dentist-visit-visual-schedule-for-kids
 
 Read it together the night before. That's it.
 
@@ -59,8 +59,8 @@ Educational support, not medical advice.
 ---
 
 EMAIL 3 — Send on Day 7
-Subject: 11 kits, one calm child
-Preview text: Eye exams, dentist, haircuts, airplane travel, and more.
+Subject: One calm plan, every hard moment
+Preview text: Doctor visits, haircuts, school mornings, and more.
 
 ---
 
@@ -68,16 +68,16 @@ Hi,
 
 A quick note on what we make.
 
-Next Comes Calm kits are 19-page printable downloads for the moments young children find hardest — not because anything is wrong with them, but because some experiences are genuinely unfamiliar and a little overwhelming.
+Next Comes Calm kits are short printable downloads for the moments young children find hardest — not because anything is wrong with them, but because some experiences are genuinely unfamiliar and a little overwhelming.
 
 Each kit covers one specific scenario:
 
-• Eye exam · Dentist · Doctor visit
-• Haircut · Picture day · Birthday party
-• Airplane travel · Grocery shopping
-• Morning routine · Bedtime · Screen time transitions
+• Eye exam · Dentist · Doctor visit · Vaccination
+• Haircut · Grocery store · Airplane travel · Leaving the house
+• School morning · School drop-off · First day of school · School bus ride
+• Bedtime · Tooth brushing
 
-Every kit includes a visual story, parent scripts, step cards, and brave choices your child can practise at home. Print, read together, repeat.
+Every kit includes a visual plan, a First-Then-Next board, a comfort plan, and communication cards your child can use in the moment. Print it, or keep it on your phone. Bundles are available too if more than one scenario applies to your family.
 
 [BUTTON: Browse all kits →]
 Link: https://nextcomescalm.etsy.com
@@ -97,5 +97,6 @@ MAILERLITE SETUP NOTES
 - Email 2: send 3 days after Email 1
 - Email 3: send 4 days after Email 2 (7 days total from signup)
 - Replace [BUTTON: ...] with MailerLite button blocks
-- Update sample.pdf link in Email 1 once the file is hosted on Netlify
-  (Until then: link directly to https://nextcomescalm.etsy.com in Email 1)
+- The First-Then-Next board PDF is hosted in this repo at assets/first-then-next-board.pdf
+  and deploys to https://nextcomescalm.netlify.app/assets/first-then-next-board.pdf — confirm
+  that URL loads after each deploy before relying on it in a live automation.
