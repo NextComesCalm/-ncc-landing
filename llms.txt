@@ -1,0 +1,58 @@
+# Next Comes Calm
+
+> Next Comes Calm sells printable "visual schedule" and calm-preparation kits for children ages 2-8, helping parents prepare kids — especially autistic, ADHD, and sensory-sensitive kids — for hard or unfamiliar moments like dentist visits, haircuts, school mornings, and vaccinations. Each kit is an instant-download PDF with a visual visit plan, a First-Then-Next board, a comfort plan, and communication cards. Kits are sold on Etsy (nextcomescalm.etsy.com); prices below are in Canadian dollars (CAD).
+
+## Kits
+
+- [Eye Exam](https://nextcomescalm.netlify.app/eye-exam/) — CA$6.95. Prepares a child for the dark room, the moving light, and the machines of an eye exam. [Etsy listing](https://www.etsy.com/ca/listing/4557030727/eye-doctor-visual-schedule-prep-kit-for)
+- [Dentist Visit](https://nextcomescalm.netlify.app/dentist/) — CA$6.95. Walks through the waiting room, the chair, the bright light, and the tools of a dentist appointment. [Etsy listing](https://www.etsy.com/ca/listing/4556936538/dentist-visit-visual-schedule-for-kids)
+- [Doctor Visit](https://nextcomescalm.netlify.app/doctor/) — CA$6.99. Prepares a child for the waiting room, the stethoscope, and a routine check-up. [Etsy listing](https://www.etsy.com/ca/listing/4557018124/doctor-visit-calm-plan-printable-parent)
+- [Vaccination](https://nextcomescalm.netlify.app/vaccination/) — CA$6.95. An honest, calm way to prepare a child for a vaccination visit and the pinch. [Etsy listing](https://www.etsy.com/ca/listing/4561115486/vaccination-visual-schedule-for-kids)
+- [Haircut](https://nextcomescalm.netlify.app/haircut/) — CA$6.95. Walks through the cape, the scissors, and the sounds of a haircut appointment. [Etsy listing](https://www.etsy.com/ca/listing/4556918013/haircut-visual-schedule-for-kids-sensory)
+- [Airplane Trip](https://nextcomescalm.netlify.app/airplane/) — CA$6.95. Prepares a child for security, boarding, takeoff, and landing on a first (or next) flight. [Etsy listing](https://www.etsy.com/ca/listing/4556940824/airplane-travel-visual-schedule-for-kids)
+- [Grocery Store](https://nextcomescalm.netlify.app/grocery/) — CA$6.95. Prepares a child for the noise, lights, and waiting of a grocery trip, with a plan for hard moments. [Etsy listing](https://www.etsy.com/ca/listing/4561114170/grocery-store-visual-schedule-for-kids)
+- [Leaving the House](https://nextcomescalm.netlify.app/leaving-the-house/) — CA$6.95. Builds a predictable routine for shoes, coats, and getting out the door. [Etsy listing](https://www.etsy.com/ca/listing/4561089931/leaving-the-house-visual-schedule-for)
+- [School Morning](https://nextcomescalm.netlify.app/school-morning/) — CA$6.95. A visual morning routine covering waking up, getting dressed, breakfast, teeth, and shoes. [Etsy listing](https://www.etsy.com/ca/listing/4561105952/school-morning-visual-schedule-for-kids)
+- [School Drop-Off](https://nextcomescalm.netlify.app/school-drop-off/) — CA$6.95. Makes the school drop-off goodbye predictable and consistent. [Etsy listing](https://www.etsy.com/ca/listing/4561107236/school-drop-off-visual-schedule-for-kids)
+- [First Day of School](https://nextcomescalm.netlify.app/first-day-of-school/) — CA$6.95. Previews the new room, teacher, and classmates before the first day arrives. [Etsy listing](https://www.etsy.com/ca/listing/4561111602/first-day-of-school-visual-schedule-for)
+- [School Bus Ride](https://nextcomescalm.netlify.app/school-bus-ride/) — CA$6.95. Previews waiting at the stop, boarding, and the ride for a first (or next) school bus trip. [Etsy listing](https://www.etsy.com/ca/listing/4561110122/school-bus-ride-visual-schedule-for-kids)
+- [Bedtime Routine](https://nextcomescalm.netlify.app/bedtime/) — CA$6.95. A visual bath-brush-book-lights-out routine, with a plan for nights that feel hard. [Etsy listing](https://www.etsy.com/ca/listing/4561094021/bedtime-visual-schedule-for-kids-calm)
+- [Tooth Brushing](https://nextcomescalm.netlify.app/tooth-brushing/) — CA$6.95. A simple First-Then-Next plan for a nightly tooth-brushing routine. [Etsy listing](https://www.etsy.com/ca/listing/4561117972/tooth-brushing-visual-schedule-for-kids)
+
+## Bundles
+
+Save by combining related kits (all sold on Etsy):
+
+- [Grocery Store & Haircut](https://www.etsy.com/ca/listing/4561127516/grocery-store-haircut-visual-support) — CA$10.95
+- [Healthcare Visits Bundle](https://www.etsy.com/ca/listing/4561103917/healthcare-visits-visual-support-bundle) — CA$17.95 (dentist, doctor, eye exam & vaccination)
+- [Bedtime & Tooth Brushing](https://www.etsy.com/ca/listing/4561125366/bedtime-tooth-brushing-visual-schedule) — CA$10.95
+- [Complete Back to School](https://www.etsy.com/ca/listing/4561101551/complete-back-to-school-visual-schedule) — CA$17.95 (morning, drop-off, first day & bus ride)
+- [First Day & School Drop-Off](https://www.etsy.com/ca/listing/4561100291/first-day-school-drop-off-visual) — CA$10.95
+- [School Morning & Bus Ride](https://www.etsy.com/ca/listing/4561122038/school-morning-bus-ride-visual-support) — CA$10.95
+
+## Guides
+
+Free articles on preparing young children for hard moments, each paired with a related kit:
+
+- [Flying with a Young Child](https://nextcomescalm.netlify.app/blog/airplane-travel-with-kids.html) — how to prepare a child for airport security, boarding, and a first flight.
+- [Building a Bedtime Routine That Young Children Actually Follow](https://nextcomescalm.netlify.app/blog/bedtime-routine-kids.html) — why children resist bedtime, and how a visual routine helps.
+- [When Birthday Parties Feel Like Too Much](https://nextcomescalm.netlify.app/blog/birthday-party-prep-kids.html) — preparing a child for the noise, crowds, and unclear rules of a party.
+- [Preparing Your Child for a Blood Test](https://nextcomescalm.netlify.app/blog/blood-test-prep-kids.html) — what actually helps before a blood draw appointment.
+- [Dentist Anxiety in Young Children](https://nextcomescalm.netlify.app/blog/child-dentist-anxiety.html) — five things that genuinely help before a dentist visit.
+- [Preparing Your Child for a Doctor Visit](https://nextcomescalm.netlify.app/blog/doctor-visit-prep-kids.html) — what to say and do before a routine doctor appointment.
+- [Preparing Your Child for the First Day of School](https://nextcomescalm.netlify.app/blog/first-day-of-school-kids.html) — how to prepare a child for a new classroom and teacher.
+- [Grocery Shopping with Young Children](https://nextcomescalm.netlify.app/blog/grocery-shopping-with-kids.html) — how to make the weekly shop less of a battle.
+- [First Haircut Fear in Young Children](https://nextcomescalm.netlify.app/blog/haircut-anxiety-kids.html) — what helps before a haircut appointment.
+- [Vaccine Anxiety in Kids](https://nextcomescalm.netlify.app/blog/helping-kids-with-vaccine-fear.html) — how to talk about an upcoming vaccine appointment.
+- [How to Prepare Your Child for an Eye Exam](https://nextcomescalm.netlify.app/blog/how-to-prepare-child-for-eye-exam.html) — what to say before an eye exam.
+- [When Leaving the Playground Is a Battle](https://nextcomescalm.netlify.app/blog/leaving-the-playground.html) — five things that reduce resistance to leaving the park.
+- [Why Your Child Resists the Morning Routine](https://nextcomescalm.netlify.app/blog/morning-routine-struggles.html) — how visual structure changes school-morning mornings.
+- [Why Kids Dread Picture Day](https://nextcomescalm.netlify.app/blog/picture-day-prep-kids.html) — how to prepare a child for school picture day.
+- [Ending Screen Time Without a Fight](https://nextcomescalm.netlify.app/blog/screen-time-transitions-kids.html) — what to do instead of fighting about turning off screens.
+- [When Your Child Falls Apart Between Activities](https://nextcomescalm.netlify.app/blog/smooth-transitions-kids.html) — a guide to smoother transitions between activities.
+- [What Is a Visual Story?](https://nextcomescalm.netlify.app/blog/visual-stories-for-anxious-kids.html) — a plain-language explanation of what visual stories are and how they work.
+- [Waiting and Turn Taking](https://nextcomescalm.netlify.app/blog/waiting-and-turn-taking-kids.html) — why waiting is hard for young children, and what helps.
+
+## Store
+
+- [Next Comes Calm on Etsy](https://nextcomescalm.etsy.com) — the full catalog of kits and bundles, instant PDF download, no subscription.
